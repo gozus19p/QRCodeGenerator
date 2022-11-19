@@ -20,7 +20,7 @@ import java.util.Objects;
  */
 public class Generator {
 
-    public static void main(String[] args) throws IOException, WriterException {
+    public static void main(String... args) throws IOException, WriterException {
 
         if (args.length != 2) {
 
